@@ -3,41 +3,117 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
     <title>Fried Fish</title>
   </head>
   <body>
     <!-- the colors for this page i like it to be very beach style like sand color or something like the ocean water color with a gradient if is possible -->
-    <a href="../index.html">Home</a>
-    <h1>Boca Chica Style Fried Fish</h1>
-    <img
-      src="pescado.jpg"
-      alt="a picture of a dish with a fried fish and other things with it"
-      height="400"
-      width="600"
-    />
-    <!-- Maybe ill change this image of a fish later when editing this with css -->
-    <h2>Pescado a la Boca Chica(Boca Chica Style Fried Fish)</h2>
-    <p>
-      This is a very famous dish in <em>Dominican Republic</em> specially if you
-      from the city. This dish is part of our culture, the name come from the
-      place where the fish is caught and made. Since it's catch and fried in the
-      same place. This beach is called Boca Chica that it translate to (small
-      mouth), it's very known in the country. For the attraction and also the
-      food and adventure that you'll have there.
+
+    <div class="home"><a href="../index.html">Home</a></div>
+    <!-- Link to home page -->
+    <div class="title-fish"><h1>Boca Chica Style Fried Fish</h1></div>
+    <!-- Title -->
+
+    <!-- Fish image and photo credits -->
+    <figure id="fish-img">
+      <img
+        class="fish-img"
+        src="pescado.jpg"
+        alt="a picture of a dish with a fried fish and other things with it"
+      />
+      <figcaption class="artist-1">Photo by I Love RD</figcaption>
+    </figure>
+
+    <div class="second-title">
+      <h2>Pescado a la Boca Chica (Boca Chica Style Fried Fish)</h2>
+    </div>
+    <!-- Second title -->
+
+    <div class="description-p part-1">
+      <p>
+        <!-- Description of about this dish -->
+        This is a very famous dish in <em>Dominican Republic</em> specially if
+        you from the city. This dish is part of our culture, the name come from
+        the place where the fish is caught and made. Since it's catch and fried
+        in the same place. This beach is called Boca Chica that it translate to
+        (small mouth), it's very known in the country. For the attraction and
+        also the food and adventure that you'll have there.
+      </p>
+    </div>
+    <div class="description-p part-2">
+      <p>
+        The most amazing thing about this dish is not buying it to take it home,
+        is eating it right there in the same place where the catch it. The
+        place, the people, the weather, the love this locals put to making this
+        dish a memory for you to remember and everything give that dish flavor.
+        There are places here in NY where I live now that make this dish but
+        this amazing fried fish but nothing like home made nothing like Boca
+        Chica Fried fish. But never the less if you want to make it home I'll
+        add the ingredients at the bottom.
+      </p>
+    </div>
+
+    <!-- Ingredients -->
+
+    <table>
+      <caption>
+        Ingredients to make this delicious dish
+      </caption>
+      <!-- title fo this table -->
+      <thead>
+        <tr>
+          <th>Type of fish to choose</th>
+          <th>Ingredients you need</th>
+        </tr>
+      </thead>
+      <!-- Table headers -->
+      <tbody>
+        <tr>
+          <td>Red snapper</td>
+          <td>4 Cloves of garlic</td>
+        </tr>
+        <tr>
+          <td>Yellow tail snapper</td>
+          <td>1 tsp Dominican ground oregano</td>
+        </tr>
+        <tr>
+          <td>Sea bass</td>
+          <td>1 - 2 Lime</td>
+        </tr>
+        <tr>
+          <td>Grouper</td>
+          <td>1/2 Cup seasoning (Adobo)</td>
+        </tr>
+        <tr>
+          <td>Trout</td>
+          <td>1/2 tsp Salt</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1/2 tsp Pepper</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1/2 cup All purpose flour</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>1 - 2 cups Frying oil</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- End of the table -->
+
+    <p class="safe-note">
+      (NOTE: Fell free to add more of this ingredients, depending on the side of
+      the fish, this is the ingredients for a fish that is about 2 pounds.)
     </p>
-    <p>
-      The most amazing thing about this dish is not buying it to take it home,
-      is eating it right there in the same place where the catch it. The place,
-      the people, the weather, the love this locals put to making this dish a
-      memory for you to remember and everything give that dish flavor. There are
-      places here in NY where I live now that make this dish but this amazing
-      fried fish but nothing like home made nothing like Boca Chica Fried fish.
-      But never the less if you want to make it home I'll add the ingredients at
-      the bottom.
-    </p>
-    <h3>Ingredients to make this delicious dish</h3>
+    <!-- This is a side note for the clients-->
+
+    <!-- <h3>Ingredients to make this delicious dish</h3> -->
     <!-- in this section of the page i want a table that has 2 sides one of the sides will have the type of fishes that you can make this dish with and the other side will have the other ingredients the topic at the top of this will be the topic at the top of the table. -->
-    <h4>TYPE OF FISHES YOU CAN USE</h4>
+    <!-- <h4>TYPE OF FISHES YOU CAN USE</h4>
+   
     <ul>
       <li>Red Snapper</li>
       <li>Yellow Tail Snapper</li>
@@ -57,26 +133,29 @@
       <li>Frying Oil</li>
     </ul>
     <h3>How to make it</h3>
+  -->
+
+  <div class="cooking-fish">
     <ol>
       <li>
         Choose the fish
-        <p>Pick your favorite fish to try with this dish.</p>
+        <p class="cooking-p">Pick your favorite fish to try with this dish.</p>
       </li>
       <li>
         Prepare the Seasoning mixes
-        <p>
+        <p class="cooking-p">
           Smash or blend garlic clove. Mix in the garlic, salt, Dominican
           oregano, and the black pepper.
         </p>
       </li>
       <li>
         mix the coating
-        <p>
+        <p class="cooking-p">
           Now take the a separate bowl or container and mix in the flour with a
-          little of the adobo
+          little of the adobo.
         </p>
-        <p>
-          <strong> (NOTE: This is optional) </strong>
+        <p class="safe-note">
+         (NOTE: This is optional)
           You can add some extra ingredients if you like, to this mix. Add a
           little of pepper, paprika and you favorite spice for more color and
           taste.
@@ -84,7 +163,7 @@
       </li>
       <li>
         Season the fish
-        <p>
+        <p class="cooking-p">
           Now take the fish clean and dry and make a couple of diagonal cuts to
           it, do this for both sides of the fish. After you have this cuts done
           now take the 1st seasoning the one with the garlic and put it all over
@@ -92,7 +171,7 @@
           cuts you made early.
         </p>
 
-        <p>
+        <p class="cooking-p">
           After making sure that theres seasoning everywhere in the fish from
           the inside out, now take the 2nd coating, the one with the flour and
           put it all over the fish as well. make sure that you can't see the
@@ -103,19 +182,16 @@
       </li>
       <li>
         Fried the Fish
-        <p>
-          Okay almost done, keep up with me. Alright in a pot place some oil,
-          enough to cover one side of the fish complete. Wait until the oil is
+        <p class="cooking-p">
+          Okay almost done, keep up with me. Alright in a pot place some oil. Now wait until the oil is
           hot not too hot but hot like you will fried an egg.
         </p>
-        <p>
-          <strong style="color: red">
+        <p class="warning-note">
             (Note: Be careful! Hot oil can be dangerous. If you don't feel safe
             frying, just turn off the stove and try grilling the fish instead,
             or air frying. It will still taste great, and it's a safer option.)
-          </strong>
         </p>
-        <p>
+        <p class="cooking-p">
           Slowly place the fish inside the pot and let it cook slowly but
           shortly. flip it from side to side if need it to until the white flour
           start to get yellow keep flipping it from side to side when is nice
@@ -126,10 +202,10 @@
       </li>
       <li>
         Enjoy your dish
-        <p>
+        <p class="eating-time">
           All done now you can serve this plate alone or with fried Plantain,
           Yuca, French frieds or even salad. I'll link some of my favorite sides
-          to eat this with
+          to eat this with.
         </p>
       </li>
     </ol>
