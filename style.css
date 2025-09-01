@@ -58,34 +58,36 @@ body {
 
 /* This is the end of the main index page */
 
+/* This is the start of the friedfish.html page style */
+
 .home a {
   display: block;
   text-decoration: none;
-  font-family: 20px;
+  font-size: 20px;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #000000;
   color: #00fff5;
   height: auto;
-  width: 100px;
+  width: fit-content;
   text-align: center;
   border-radius: 5px;
   box-shadow: 2px 2px 0.5rem #ffffff;
   margin: 25px auto;
-  padding: 10px 5px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 /* This is the style for the link back to home */
 .home a:hover {
   color: #000;
   background-color: #00fff5;
-  transition: 1s;
+  transition: all 0.3s ease-in-out;
   box-shadow: 2px 2px 0.5rem #000000;
 }
 /* This is the style for the hover over the link back to home */
 .title-fish {
   background-color: rgba(249, 224, 174, 85%);
-  width: 500px;
+  width: 50%;
   height: auto;
   display: block;
   margin: 20px auto;
@@ -105,7 +107,8 @@ body {
 /* this is the style for the title */
 
 .fish-img {
-  width: 500px;
+  width: 60%;
+  max-width: 500px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -125,7 +128,7 @@ body {
 /* this is the end of the image style in the for the fish page */
 
 .second-title {
-  width: 700px;
+  width: 75%;
   height: auto;
   display: block;
   margin: 50px auto;
@@ -138,16 +141,16 @@ body {
 }
 /* this is the second title set up */
 
-.description-p {
+.description {
   width: 80%;
   max-width: 1100px;
   height: auto;
   display: block;
   margin: 15px auto;
 }
-/* this is the box set up for the both description paragraph */
+/* this is the box set up for all pages about */
 
-.description-p p {
+.description p {
   font-size: 17px;
   font-weight: 200;
   font-family: "Times New Roman", Times, sans-serif;
@@ -157,7 +160,8 @@ body {
 /* this is the setup fot both paragraph */
 
 table {
-  width: 700px;
+  width: 85%;
+  max-width: 800px;
   height: auto;
   padding: 20px 10px;
   margin: 25px auto;
@@ -212,12 +216,12 @@ tbody > tr:nth-of-type(odd) {
 .safe-note {
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #0077b6;
+  color: #de4ad9;
   text-align: center;
-  width: 500px;
+  width: 75%;
   margin: 15px auto;
 }
-/* This is the safe note setup  */
+/* This is the safe note setup  for all 3 recipes*/
 
 .cooking-fish {
   width: 80%;
@@ -244,7 +248,7 @@ tbody > tr:nth-of-type(odd) {
 }
 /* This is the style for the numbers in the order list of steps */
 
-.cooking-p {
+.cooking {
   text-align: center;
   font-size: 15px;
   font-weight: 550;
@@ -254,13 +258,12 @@ tbody > tr:nth-of-type(odd) {
 /* This is the style for every paragraph in the cooking section of steps */
 
 .warning-note {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15.5px;
+  font-weight: bold;
   color: #ef000f;
 }
-/* This is a side note warning about the danger of hot oil */
+/* This is a side note warning notes for all 3 recipes*/
 
 .eating-time {
   font: 16px;
@@ -273,3 +276,164 @@ tbody > tr:nth-of-type(odd) {
 /* this is the last part of the page the cooking time */
 
 /* this is the end of the section for the fish */
+
+/* This is the start for the die-dreaming.html */
+
+.title-die-dreaming {
+  background-color: #f9e0ae;
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0.5rem #000000;
+}
+/* This is the setup for the box of the title */
+
+.title-die-dreaming h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: monospace, "Time New Roman", sans-serif;
+}
+/* This is the setup for the title */
+
+.juice-img {
+  width: 50%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0.5rem #000000;
+  margin: 10px auto 15px;
+}
+.credits {
+  text-decoration: none;
+  color: #bc22e7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* This is the setup for the image credit */
+
+.credits:hover {
+  color: #f9ff99;
+}
+/* This is the credit hover effect */
+
+.title-2 {
+  width: 50%;
+  max-width: 700px;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+}
+/* This is the second title for the die dreaming juice setup */
+.title-3 {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #393e46;
+  text-align: center;
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto 15px;
+}
+/* This is the setup for the third title */
+.ingredients-list {
+  width: 50%;
+  max-width: 600px;
+  display: block;
+  box-sizing: border-box;
+  height: auto;
+  margin: 10px auto 15px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #393e46;
+  list-style-type: none;
+}
+/* This is the set up for the ul ingredients for the juice and for the tostones as well */
+
+.ingredients-list li {
+  margin-bottom: 2px;
+  letter-spacing: 0.2px;
+  font-size: 16.5px;
+  font-weight: 550;
+}
+/* This is the setup for the list of ingredients */
+
+.title-4 {
+  text-align: center;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+.preparation {
+  width: 80%;
+  max-width: 1100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* This is the box for the preparation boxes or how to make for the tostones and the juice */
+
+.preparation ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+/* This is the setup for the ol list for both the tostones and the juice */
+
+.preparation ol > li {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* This is the setup for the list in the juice and the tostones page */
+.preparation ol > li::marker {
+  font-size: 16px;
+  font-weight: 650;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* This is the setup for the numbers of the steps on how to make this */
+.preparation ol > li > p {
+  margin: 5px auto;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  width: 80%;
+  max-width: 1100px;
+}
+/* This is the section the has the setup for the paragraphs inside each of the list directions in the juice */
+
+.last-title {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 1px;
+}
+/* This is the setup for the last title of the juice page */
+
+.last-part {
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
+  max-width: 1100px;
+  height: auto;
+  margin: 10px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* This is the last paragraph of the juice page i may use this for other pages as well */
