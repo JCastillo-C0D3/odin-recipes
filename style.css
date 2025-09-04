@@ -18,43 +18,50 @@ body {
   box-shadow: 4px 6px 0.5rem #000000;
 }
 /* home page style */
+
 #nav-bar {
   background-color: #00fff5;
-  width: 90%;
+  height: auto;
+  width: 75%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
   border-radius: 10px;
-  box-shadow: 3px 4px 1rem #000000;
-  margin: 5px auto;
+  box-shadow: 2px 2px 0.6rem #000000;
 }
-/* nav bar style for the home page */
-
+/* This is the nav-bar set-up */
 #nav-bar ul {
+  display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-/* ul style for the nav bar in the home page */
+/* This is the nav > ul set up display flex */
 
-#nav-bar li {
-  display: inline-block;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+#nav-bar > ul > li {
+  /* flex: 1; */
+  font-size: 2.2rem;
+  font-family: "lucida sans", sans-serif, "Times New Roma";
   font-weight: bold;
-  padding: 25px 25px;
+  text-align: center;
+  padding: 10px;
 }
-/* li style for the home page */
+/* This is the list set up */
 
-#nav-bar a {
-  color: #393e46;
+#nav-bar > ul > li > a {
   text-decoration: none;
+  color: #000000;
   cursor: pointer;
 }
-/* Links style for the home page */
+/* This is the set up for the nav bar links */
 
-#nav-bar a:hover {
+#nav-bar > ul > li > a:hover {
   color: #77b2ed;
+  font-style: oblique;
 }
-/* link hover over style for the home page */
+/* This is the effect of the links when hovering over them.  */
 
 /* This is the end of the main index page */
 
